@@ -1,4 +1,6 @@
-CREATE TABLE dados (
+CREATE DATABASE IF NOT EXISTS banco;
+USE banco;
+CREATE TABLE IF NOT EXISTS dados (
     AlunoID int,
     Nome varchar(50),
     Sobrenome varchar(50),
